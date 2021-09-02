@@ -3,20 +3,20 @@
 #include<string.h> 
 #include <math.h>
 #define INPUT 0xA6
-//char* GetMemory(void)
-//{
-//    char p[] = "hello world";
-//    return p;
-//}
-//unsigned char bit_reverse(unsigned char input) {
-//	unsigned char res = 0;
-//	int bit = 8;
-//	while (bit--) {
-//		res |= ((input & 0x01) << bit);
-//		input >>= 1;
-//	}
-//	return res;
-//}
+char* GetMemory(void)
+{
+    char p[] = "hello world";
+    return p;
+}
+unsigned char bit_reverse(unsigned char input) {
+	unsigned char res = 0;
+	int bit = 8;
+	while (bit--) {
+		res |= ((input & 0x01) << bit);
+		input >>= 1;
+	}
+	return res;
+}
 
 //找出一个字符串中一个最长的连续数字，并标注出位置和长度
 //char* find(char* a, int* size) {
